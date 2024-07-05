@@ -13,23 +13,25 @@ namespace ControladorDeBar.Dominio.ModuloProduto
 
         public string NomeProduto { get; set; }
 
-        public Produto(int idProduto, string nomeProduto)
+        public decimal PrecoProduto { get; set; }
+
+        public Produto(string nomeProduto, decimal precoProduto)
         {
-            this.IdProduto = idProduto;
             this.NomeProduto = nomeProduto;
+            this.PrecoProduto = precoProduto;
         }
 
         public override void AtualizarRegistro(EntidadeBase novoRegistro)
         {
             Produto produtoAtualizado = (Produto)novoRegistro;
 
-            IdProduto = produtoAtualizado.IdProduto;
             NomeProduto = produtoAtualizado.NomeProduto;
+            PrecoProduto = produtoAtualizado.PrecoProduto;
         }
 
         public override string ToString() //Transforma objet em string
         {
-            return $"IdProduto: {IdProduto}, Nome: {NomeProduto}";
+            return $"IdProduto: {IdProduto}, Nome: {NomeProduto}, Preço: {PrecoProduto}";
         }
     }
 }

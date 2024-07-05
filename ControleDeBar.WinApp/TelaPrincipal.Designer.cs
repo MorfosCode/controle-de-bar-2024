@@ -39,6 +39,8 @@
             btnAdicionar = new ToolStripButton();
             btnEditar = new ToolStripButton();
             btnExcluir = new ToolStripButton();
+            toolStripSeparator1 = new ToolStripSeparator();
+            lblTipoOperacao = new ToolStripLabel();
             panelPrincipal = new Panel();
             menuStrip1.SuspendLayout();
             statusStrip1.SuspendLayout();
@@ -66,21 +68,21 @@
             // garconMenuItem
             // 
             garconMenuItem.Name = "garconMenuItem";
-            garconMenuItem.Size = new Size(224, 30);
+            garconMenuItem.Size = new Size(163, 30);
             garconMenuItem.Text = "Garçon";
             garconMenuItem.Click += garconMenuItem_Click;
             // 
             // mesaMenuItem
             // 
             mesaMenuItem.Name = "mesaMenuItem";
-            mesaMenuItem.Size = new Size(224, 30);
+            mesaMenuItem.Size = new Size(163, 30);
             mesaMenuItem.Text = "Mesa";
             mesaMenuItem.Click += mesaMenuItem_Click;
             // 
             // produtoMenuItem
             // 
             produtoMenuItem.Name = "produtoMenuItem";
-            produtoMenuItem.Size = new Size(224, 30);
+            produtoMenuItem.Size = new Size(163, 30);
             produtoMenuItem.Text = "Produto";
             produtoMenuItem.Click += produtoMenuItem_Click;
             // 
@@ -105,7 +107,7 @@
             // 
             toolStrip1.Font = new Font("Segoe UI", 10.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             toolStrip1.ImageScalingSize = new Size(20, 20);
-            toolStrip1.Items.AddRange(new ToolStripItem[] { btnAdicionar, btnEditar, btnExcluir });
+            toolStrip1.Items.AddRange(new ToolStripItem[] { btnAdicionar, btnEditar, btnExcluir, toolStripSeparator1, lblTipoOperacao });
             toolStrip1.Location = new Point(0, 33);
             toolStrip1.Name = "toolStrip1";
             toolStrip1.Size = new Size(1100, 65);
@@ -123,6 +125,7 @@
             btnAdicionar.Size = new Size(62, 62);
             btnAdicionar.Text = "toolStripButton1";
             btnAdicionar.ToolTipText = "\r\n";
+            btnAdicionar.Click += btnAdicionar_Click;
             // 
             // btnEditar
             // 
@@ -147,6 +150,17 @@
             btnExcluir.Size = new Size(62, 62);
             btnExcluir.Text = "toolStripButton3";
             btnExcluir.ToolTipText = "\r\n";
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new Size(6, 65);
+            // 
+            // lblTipoOperacao
+            // 
+            lblTipoOperacao.Name = "lblTipoOperacao";
+            lblTipoOperacao.Size = new Size(154, 62);
+            lblTipoOperacao.Text = "Tipo de Operação";
             // 
             // panelPrincipal
             // 
@@ -199,5 +213,7 @@
         private ToolStripButton btnEditar;
         private ToolStripButton btnExcluir;
         private Panel panelPrincipal;
+        private ToolStripSeparator toolStripSeparator1;
+        private ToolStripLabel lblTipoOperacao;
     }
 }
