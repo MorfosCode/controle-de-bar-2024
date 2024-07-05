@@ -1,4 +1,4 @@
-namespace ControleBar.WimApp
+namespace ControleDeBar.WinApp
 {
     internal static class Program
     {

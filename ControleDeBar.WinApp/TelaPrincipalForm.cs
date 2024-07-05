@@ -1,4 +1,4 @@
-using ControleDeBar.WinApp.Compartilhado.Extension;
+using ControleDeBar.WinApp.ModuloCompartilhado;
 
 namespace ControleDeBar.WinApp
 {

@@ -32,5 +32,15 @@ namespace ControleDeBar.WinApp.ModuloProduto
                 MessageBox.Show("Informação slava com sucesso!");
             }
         }
+
+        public override void Editar()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Excluir()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

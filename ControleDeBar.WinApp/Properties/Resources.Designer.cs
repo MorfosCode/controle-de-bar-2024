@@ -63,9 +63,9 @@ namespace ControleDeBar.WinApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap add_blue {
+        internal static System.Drawing.Bitmap btnAdicionar {
             get {
-                object obj = ResourceManager.GetObject("add_blue", resourceCulture);
+                object obj = ResourceManager.GetObject("btnAdicionar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace ControleDeBar.WinApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap delete_blue_circle {
+        internal static System.Drawing.Bitmap btnEditar {
             get {
-                object obj = ResourceManager.GetObject("delete_blue-circle", resourceCulture);
+                object obj = ResourceManager.GetObject("btnEditar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,49 @@ namespace ControleDeBar.WinApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edit_blue {
+        internal static System.Drawing.Bitmap btnExcluir {
             get {
-                object obj = ResourceManager.GetObject("edit_blue", resourceCulture);
+                object obj = ResourceManager.GetObject("btnExcluir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnFiltrar {
+            get {
+                object obj = ResourceManager.GetObject("btnFiltrar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnFiltrar1 {
+            get {
+                object obj = ResourceManager.GetObject("btnFiltrar1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnPagar {
+            get {
+                object obj = ResourceManager.GetObject("btnPagar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap btnRelatorio {
+            get {
+                object obj = ResourceManager.GetObject("btnRelatorio", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

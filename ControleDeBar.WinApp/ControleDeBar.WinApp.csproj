@@ -9,6 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="TelaPrincipal.cs" />
+    <Compile Remove="TelaPrincipal.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="TelaPrincipal.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ControladorDeBar.Dominio\ControladorDeBar.Dominio.csproj" />
   </ItemGroup>
 
@@ -17,6 +26,9 @@
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="TelaPrincipalForm.cs">
+      <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
 

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ControleBar.WimApp.Properties {
+namespace ControleDeBar.WinApp.Properties {
     using System;
     
     

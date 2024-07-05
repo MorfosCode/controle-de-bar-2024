@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleBar.WimApp.Compartilhado.Extension
+namespace ControleDeBar.WinApp.Compartilhado.Extension
 {
     public abstract class ControladorBase
     {
